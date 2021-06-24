@@ -13,5 +13,12 @@ namespace final.Controllers
         {
             return View();
         }
+
+        public ActionResult About()
+        {
+            ViewBag.name = "劉紘維";
+            ViewBag.number = "410603901";
+            return View();
+        }
     }
 }
